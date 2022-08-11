@@ -20,7 +20,7 @@ resource "aws_instance" "devops21_exam" {
   subnet_id                   = var.public_subnets[0]
   instance_type               = "t2.micro"
   vpc_security_group_ids      = [var.security_group]
-  key_name                    = "my_pem"
+  key_name                    = "my_private_key"
   associate_public_ip_address = true
   
   user_data                   = <<-EOF
