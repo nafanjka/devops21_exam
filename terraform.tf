@@ -1,13 +1,13 @@
 terraform {
-/*
+
   cloud {
     organization = "Roga-i-Kopyta"
 
     workspaces {
-      name = "Git_controlled_devops21_finalTask"
+      name = "devops21_exam"
     }
   }
-*/
+
 
   required_providers {
     aws = {
