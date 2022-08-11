@@ -15,7 +15,7 @@ data "aws_ami" "ubuntu" {
 }
 
 
-resource "aws_instance" "example" {
+resource "aws_instance" "devops21_exam" {
   ami                         = data.aws_ami.ubuntu.id
   subnet_id                   = var.public_subnets[0]
   instance_type               = "t2.micro"
