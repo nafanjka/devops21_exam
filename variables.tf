@@ -4,18 +4,6 @@ variable "region" {
   description = "The AWS region your resources will be deployed"
 }
 
-variable "aws_access_key" {
-  description = "AWS access key"
-  type        = string
-  default = "AKIAU6GU3OFRMQF47AJO"
-}
-
-variable "aws_secret_key" {
-  description = "AWS secret key"
-  type        = string
-  default = "YrM+w3uzj/zVcs/xxI5+Q15PVCvCnLUEVeQnCnP+"
-} 
-
 variable "vpc_name" {
   description = "Name of VPC"
   type        = string
